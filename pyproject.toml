@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pp-python-workshop"
+version = "0.1.0"
+description = ""
+authors = ["MirruK <mirek.kudinoff@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+jupyterlab = "^4.3.6"
+numpy = "^2.2.4"
+pandas = "^2.2.3"
+matplotlib = "^3.10.1"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
